@@ -6,4 +6,3 @@ docker tag $DOCKER_USERNAME/$IMAGE_NAME_DEV:latest $DOCKER_USERNAME/$IMAGE_NAME_
 docker push $DOCKER_USERNAME/$IMAGE_NAME_PROD:latest
 
 #use docker compose to start the applicaton
-docker-compose up -d 
